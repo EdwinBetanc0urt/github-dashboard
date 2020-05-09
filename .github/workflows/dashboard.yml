@@ -81,7 +81,7 @@ jobs:
               - title: '>3 years'
                 issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:<{{ date("-365 days") }}'
                 color: 'red'
-                  token: ${{ github.token }}
+        token: ${{ github.token }}
 
     - name: Publish Documentation
       run: |
