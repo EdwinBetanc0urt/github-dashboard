@@ -120,6 +120,130 @@ jobs:
               issue_query: 'repo:jhipster/generator-jhipster-micronaut is:open is:pr review:none'
               color: 'red'
 
+          - title: 'jhipster-dotnetcore'
+            description: 'Issue overview for jhipster-dotnetcore'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: bug :bug:" '
+              title: 'Open Bugs'
+              color: 'red'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"$$ bug-bounty $$"'
+              title: 'Open Bounties'
+              color: 'yellow'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: feature request :bulb:"'
+              title: 'Feature Requests'
+              color: 'blue'
+          - title: 'jhipster-dotnetcore'
+            description: 'Pull request overview for jhipster-dotnetcore'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:pr is:open'
+              title: 'Open pull requests'
+              color: 'blue'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
+              title: 'New Pull Requests (This Week)'
+              color: 'green'
+            - type: 'number'
+              title: 'Needs Review'
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:open is:pr review:none'
+              color: 'red'
+        
+          - title: 'jhipster-quarkus'
+            description: 'Issue overview for jhipster-quarkus'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-quarkus is:issue is:open label:"area: bug :bug:" '
+              title: 'Open Bugs'
+              color: 'red'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-quarkus is:issue is:open label:"$$ bug-bounty $$"'
+              title: 'Open Bounties'
+              color: 'yellow'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-quarkus is:issue is:open label:"area: feature request :bulb:"'
+              title: 'Feature Requests'
+              color: 'blue'
+          - title: 'jhipster-quarkus'
+            description: 'Pull request overview for jhipster-quarkus'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-quarkus is:pr is:open'
+              title: 'Open pull requests'
+              color: 'blue'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-quarkus is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
+              title: 'New Pull Requests (This Week)'
+              color: 'green'
+            - type: 'number'
+              title: 'Needs Review'
+              issue_query: 'repo:jhipster/jhipster-quarkus is:open is:pr review:none'
+              color: 'red'
+
+          - title: 'generator-jhipster-nodejs'
+            description: 'Issue overview for generator-jhipster-nodejs'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/generator-jhipster-nodejs is:issue is:open label:"area: bug :bug:" '
+              title: 'Open Bugs'
+              color: 'red'
+            - type: number
+              issue_query: 'repo:jhipster/generator-jhipster-nodejs is:issue is:open label:"$$ bug-bounty $$"'
+              title: 'Open Bounties'
+              color: 'yellow'
+            - type: number
+              issue_query: 'repo:jhipster/generator-jhipster-nodejs is:issue is:open label:"area: feature request :bulb:"'
+              title: 'Feature Requests'
+              color: 'blue'
+          - title: 'generator-jhipster-nodejs'
+            description: 'Pull request overview for generator-jhipster-nodejs'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/generator-jhipster-nodejs is:pr is:open'
+              title: 'Open pull requests'
+              color: 'blue'
+            - type: number
+              issue_query: 'repo:jhipster/generator-jhipster-nodejs is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
+              title: 'New Pull Requests (This Week)'
+              color: 'green'
+            - type: 'number'
+              title: 'Needs Review'
+              issue_query: 'repo:jhipster/generator-jhipster-nodejs is:open is:pr review:none'
+              color: 'red'
+
+          - title: 'prettier-java'
+            description: 'Issue overview for prettier-java'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/prettier-java is:issue is:open label:"area: bug :bug:" '
+              title: 'Open Bugs'
+              color: 'red'
+            - type: number
+              issue_query: 'repo:jhipster/prettier-java is:issue is:open label:"$$ bug-bounty $$"'
+              title: 'Open Bounties'
+              color: 'yellow'
+            - type: number
+              issue_query: 'repo:jhipster/prettier-java is:issue is:open label:"area: feature request :bulb:"'
+              title: 'Feature Requests'
+              color: 'blue'
+          - title: 'prettier-java'
+            description: 'Pull request overview for prettier-java'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/prettier-java is:pr is:open'
+              title: 'Open pull requests'
+              color: 'blue'
+            - type: number
+              issue_query: 'repo:jhipster/prettier-java is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
+              title: 'New Pull Requests (This Week)'
+              color: 'green'
+            - type: 'number'
+              title: 'Needs Review'
+              issue_query: 'repo:jhipster/prettier-java is:open is:pr review:none'
+              color: 'red'
+
           - title: 'Open Issues by Age'
             description: 'generator-jhipster'
             widgets:
