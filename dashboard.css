@@ -11,19 +11,19 @@ a {
 }
 
 :root {
-    --color-red-background: #ee0000;
+    --color-red-background: #dc3545;
     --color-red-foreground: #ffffff;
     --color-red-border: #cc0000;
 
-    --color-yellow-background: #eeee00;
+    --color-yellow-background: #ffc107;
     --color-yellow-foreground: #000000;
     --color-yellow-border: #cccc00;
 
-    --color-green-background: #00bb00;
+    --color-green-background: #28a745;
     --color-green-foreground: #ffffff;
     --color-green-border: #999900;
 
-    --color-blue-background: #0000ee;
+    --color-blue-background: #007bff;
     --color-blue-foreground: #ffffff;
     --color-blue-border: #0000cc;
 
