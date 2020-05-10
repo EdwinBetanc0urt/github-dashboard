@@ -267,7 +267,7 @@ jobs:
                 issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:{{ date("-3 years") }}..{{ date("-2 years") }}'
                 color: 'red'
               - title: '>3 years'
-                issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:<{{ date("-365 days") }}'
+                issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:<{{ date("-1099 days") }}'
                 color: 'red'
         token: ${{ github.token }}
 
