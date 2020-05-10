@@ -2,7 +2,7 @@ name: Build Dashboard
 
 on:
   schedule:
-  - cron: '30 */12 * * *'
+  - cron: '30 4 * * *'
 
 jobs:
   build:
