@@ -2,7 +2,7 @@ name: Build Dashboard
 
 on:
   schedule:
-    - cron: '30 6 * * *'
+    - cron: '5 14 * * *'
 
 jobs:
   build:
@@ -269,7 +269,7 @@ jobs:
               - title: '>3 years'
                 issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:<{{ date("-1099 days") }}'
                 color: 'red'
-        token: ${{ github.token }}
+        token: ${{ PAT }}
 
     - name: Publish Documentation
       run: |
