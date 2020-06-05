@@ -1,8 +1,8 @@
 name: Build Dashboard
 
-# on:
-#   schedule:
-#     - cron: '5 12 * * *'
+on:
+  schedule:
+    - cron: '5 12 * * *'
 
 jobs:
   build:
@@ -118,37 +118,6 @@ jobs:
             - type: 'number'
               title: 'Needs Review'
               issue_query: 'repo:jhipster/generator-jhipster-micronaut is:open is:pr review:none'
-              color: 'red'
-
-          - title: 'jhipster-dotnetcore'
-            description: 'Issue overview for jhipster-dotnetcore'
-            widgets:
-            - type: number
-              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: bug :bug:" '
-              title: 'Open Bugs'
-              color: 'red'
-            - type: number
-              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"$$ bug-bounty $$"'
-              title: 'Open Bounties'
-              color: 'yellow'
-            - type: number
-              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: feature request :bulb:"'
-              title: 'Feature Requests'
-              color: 'blue'
-          - title: 'jhipster-dotnetcore'
-            description: 'Pull request overview for jhipster-dotnetcore'
-            widgets:
-            - type: number
-              issue_query: 'repo:jhipster/jhipster-dotnetcore is:pr is:open'
-              title: 'Open pull requests'
-              color: 'blue'
-            - type: number
-              issue_query: 'repo:jhipster/jhipster-dotnetcore is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
-              title: 'New Pull Requests (This Week)'
-              color: 'green'
-            - type: 'number'
-              title: 'Needs Review'
-              issue_query: 'repo:jhipster/jhipster-dotnetcore is:open is:pr review:none'
               color: 'red'
 
           - title: 'Open Issues by Age'
