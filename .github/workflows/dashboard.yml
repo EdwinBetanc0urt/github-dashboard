@@ -49,14 +49,6 @@ jobs:
               issue_query: 'repo:jhipster/generator-jhipster is:pr is:open'
               title: 'Open pull requests'
               color: 'blue'
-            - type: number
-              issue_query: 'repo:jhipster/generator-jhipster is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
-              title: 'New Pull Requests (This Week)'
-              color: 'green'
-            - type: 'number'
-              title: 'Needs Review'
-              issue_query: 'repo:jhipster/generator-jhipster is:open is:pr review:none'
-              color: 'red'
 
           - title: 'jhipster-vuejs'
             description: 'Issue overview for jhipster-vuejs'
@@ -80,14 +72,6 @@ jobs:
               issue_query: 'repo:jhipster/jhipster-vuejs is:pr is:open'
               title: 'Open pull requests'
               color: 'blue'
-            - type: number
-              issue_query: 'repo:jhipster/jhipster-vuejs is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
-              title: 'New Pull Requests (This Week)'
-              color: 'green'
-            - type: 'number'
-              title: 'Needs Review'
-              issue_query: 'repo:jhipster/jhipster-vuejs is:open is:pr review:none'
-              color: 'red'
 
           - title: 'generator-jhipster-micronaut'
             description: 'Issue overview for generator-jhipster-micronaut'
@@ -111,14 +95,6 @@ jobs:
               issue_query: 'repo:jhipster/generator-jhipster-micronaut is:pr is:open'
               title: 'Open pull requests'
               color: 'blue'
-            - type: number
-              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:pr is:open created:>{{ date("-7 days") }} sort:created-asc" '
-              title: 'New Pull Requests (This Week)'
-              color: 'green'
-            - type: 'number'
-              title: 'Needs Review'
-              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:open is:pr review:none'
-              color: 'red'
 
           - title: 'Open Issues by Age'
             description: 'generator-jhipster'
