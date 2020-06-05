@@ -111,6 +111,7 @@ jobs:
               - title: '90 days'
                 issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:{{ date("-90 days") }}..{{ date("-30 days") }}'
               - title: '1 year'
+                color: 'yellow'
                 issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:{{ date("-1 year") }}..{{ date("-90 days") }}'
               - title: '2 years'
                 issue_query: 'repo:jhipster/generator-jhipster is:open is:issue created:{{ date("-2 years") }}..{{ date("-1 year") }}'
