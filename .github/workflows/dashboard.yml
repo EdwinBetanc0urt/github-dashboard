@@ -77,15 +77,15 @@ jobs:
             description: 'Issue overview for generator-jhipster-micronaut'
             widgets:
             - type: number
-              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"area: bug :bug:" '
+              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"bug+:bug:" '
               title: 'Open Bugs'
               color: 'red'
             - type: number
-              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"$$ bug-bounty $$"'
+              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"Bounty+💸"'
               title: 'Open Bounties'
               color: 'yellow'
             - type: number
-              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"area: feature request :bulb:"'
+              issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"enhancement+💎"'
               title: 'Feature Requests'
               color: 'blue'
           - title: 'generator-jhipster-micronaut'
@@ -111,11 +111,34 @@ jobs:
               issue_query: 'repo:jhipster/jhipster-quarkus is:issue is:open label:"area: feature request :bulb:"'
               title: 'Feature Requests'
               color: 'blue'
-          - title: 'jhipster-quarkus'
-            description: 'Pull request overview for jhipster-quarkus'
+              
+          - title: 'jhipster-dotnetcore'
+            description: 'Pull request overview for jhipster-dotnetcore'
             widgets:
             - type: number
-              issue_query: 'repo:jhipster/jhipster-quarkus is:pr is:open'
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:pr is:open'
+              title: 'Open pull requests'
+              color: 'blue'
+                    - title: 'jhipster-dotnetcore'
+            description: 'Issue overview for jhipster-dotnetcore'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: bug :bug:" '
+              title: 'Open Bugs'
+              color: 'red'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"$$ bug-bounty $$"'
+              title: 'Open Bounties'
+              color: 'yellow'
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: feature request :bulb:"'
+              title: 'Feature Requests'
+              color: 'blue'
+          - title: 'jhipster-dotnetcore'
+            description: 'Pull request overview for jhipster-dotnetcore'
+            widgets:
+            - type: number
+              issue_query: 'repo:jhipster/jhipster-dotnetcore is:pr is:open'
               title: 'Open pull requests'
               color: 'blue'
 
