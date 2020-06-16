@@ -77,7 +77,7 @@ jobs:
               description: 'Issue overview for generator-jhipster-micronaut'
               widgets:
               - type: number
-                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"bug+:bug:" '
+                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"bug+🐞" '
                 title: 'Open Bugs'
                 color: 'red'
               - type: number
