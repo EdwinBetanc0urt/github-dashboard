@@ -77,15 +77,15 @@ jobs:
               description: 'Issue overview for generator-jhipster-micronaut'
               widgets:
               - type: number
-                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"bug+🐞" '
+                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"bug 🐞" '
                 title: 'Open Bugs'
                 color: 'red'
               - type: number
-                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"Bounty+💸"'
+                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"Bounty 💸"'
                 title: 'Open Bounties'
                 color: 'yellow'
               - type: number
-                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"enhancement+💎"'
+                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"enhancement 💎"'
                 title: 'Feature Requests'
                 color: 'blue'
             - title: 'generator-jhipster-micronaut'
