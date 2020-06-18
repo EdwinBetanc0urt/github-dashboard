@@ -54,7 +54,7 @@ jobs:
               description: 'Issue overview for jhipster-vuejs'
               widgets:
               - type: number
-                issue_query: 'repo:jhipster/jhipster-vuejs is:issue is:open label:"area:bug" '
+                issue_query: 'repo:jhipster/jhipster-vuejs is:issue is:open label:"bug" '
                 title: 'Open Bugs'
                 color: 'red'
               - type: number
@@ -62,7 +62,7 @@ jobs:
                 title: 'Open Bounties'
                 color: 'yellow'
               - type: number
-                issue_query: 'repo:jhipster/jhipster-vuejs is:issue is:open label:"area:enhancement"'
+                issue_query: 'repo:jhipster/jhipster-vuejs is:issue is:open label:"enhancement"'
                 title: 'Feature Requests'
                 color: 'blue'
             - title: 'jhipster-vuejs'
