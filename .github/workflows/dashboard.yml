@@ -123,7 +123,7 @@ jobs:
               description: 'Issue overview for jhipster-dotnetcore'
               widgets:
               - type: number
-                issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: bug :bug:" '
+                issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:bug'
                 title: 'Open Bugs'
                 color: 'red'
               - type: number
@@ -131,7 +131,7 @@ jobs:
                 title: 'Open Bounties'
                 color: 'yellow'
               - type: number
-                issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:"area: feature request :bulb:"'
+                issue_query: 'repo:jhipster/jhipster-dotnetcore is:issue is:open label:enhancement'
                 title: 'Feature Requests'
                 color: 'blue'
             - title: 'jhipster-dotnetcore'
