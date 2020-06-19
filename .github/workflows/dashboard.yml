@@ -81,7 +81,7 @@ jobs:
                 title: 'Open Bugs'
                 color: 'red'
               - type: number
-                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"Bounty 💸"'
+                issue_query: 'repo:jhipster/generator-jhipster-micronaut is:issue is:open label:"$$ bug-bounty $$"'
                 title: 'Open Bounties'
                 color: 'yellow'
               - type: number
